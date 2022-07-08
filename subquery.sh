@@ -43,7 +43,7 @@ sudo ufw allow 3000:3100/tcp
 
 # 6. Install SubQuery
 cd $HOME
-mkdir subquery-indexer && cd subquery-indexer
+mkdir testnet && cd testnet
 wget -qO docker-compose.yml https://raw.githubusercontent.com/subquery/indexer-services/main/docker-compose.yml
 docker-compose up -d
 
